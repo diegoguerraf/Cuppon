@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Roboto', sans-serif; 
+
+}
+
+body header .container-fluid {
+    background-color: #28A745;
+    
+}
+
+body header img {
+    width: 120pt;
+    height: 60pt;
+}
+
+@media (max-width: 767px) {
+    body header img{
+        width: 90px;
+        height: 40px;
+    }
+}
+
+body header ul li{
+    font-size: 16px;
+    
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #000000 !important; 
+}
+
+main #cartas h3 {
+    font-weight: 500; 
+}
+
+main #cartas .card-body p, i{
+    color: #707070;
+    font-weight: 300; 
+}
+
+main #cartas #footercard h3{
+    color: #28A745;
+}
+
+main #cartas #footercard p{
+    color: #707070;
+    font-weight: 300;
+}
+
+#form {
+    background-color: #28A745;
+}
+
+#form input {
+    width: 278pt;
+    height: 40pt;
+}
+
+.btn-custom {
+    background-color: #F8F9FA; 
+    border-color: #DDDDDD; 
+    color: #000000; 
+  }
+
+
+  .btn-custom:hover {
+    background-color: #EBEBEB; 
+  }
+
+#form h3{
+    color: white;
+    font-weight: 500;
+}
+
+footer img{
+    width: 120pt;
+    height: 60pt;
+
+}
+
+footer p{
+    font-weight: 300;
+    color: #707070;
+    font-size: 16px;
+}
+
+@media (max-width: 767px){
+    footer img{
+        width: 84pt;
+        height: 24pt;
+    }
+}
